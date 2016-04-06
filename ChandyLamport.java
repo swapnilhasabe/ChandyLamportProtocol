@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 
 public class ChandyLamport { 
-
+    //method where protocol starts 
 	public static void startSnapshotProtocol(ProjectMain mainObj) {
 		synchronized(mainObj){
 			// node 0 calls this method to initiate chandy and lamport protocol
